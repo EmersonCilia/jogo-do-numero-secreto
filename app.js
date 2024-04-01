@@ -2,7 +2,7 @@ let listaDeNumerosSorteados = [];
 let numeroMaximo = parseInt(10);
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
-const myInput = document.querySelector(".container__input").setAttribute('max', numeroMaximo);;
+const myInput = document.querySelector(".container__input").setAttribute('max', numeroMaximo);
 MensagemInicial();
 
 function exibeTextoNaTela(tag, texto){
